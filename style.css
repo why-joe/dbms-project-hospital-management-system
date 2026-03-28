@@ -1,0 +1,123 @@
+/* =========================
+   GENERAL PAGE STYLING
+========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+
+/* =========================
+   NAVBAR (CLEAN & BALANCED)
+========================= */
+
+/* NAVBAR CLEAN FINAL VERSION */
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px 20px;
+
+    display: flex;
+    flex-wrap: wrap;          /* allows second row */
+    justify-content: center;  /* center align */
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #1abc9c;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+    width: 85%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.08);
+}
+
+
+/* =========================
+   TABLE STYLING
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+button, input[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #16a085;
+}
+
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+
+a.action-btn {
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #3498db;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
